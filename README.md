@@ -1,6 +1,6 @@
 # Issue Tracker API
 ...
-## 🚀 Features
+## Features
 
 - Create an issue
 - Retrieve all issues
@@ -10,7 +10,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python 3
 - FastAPI
@@ -47,14 +47,14 @@ Windows:
 venv\Scripts\activate
 4. Install dependencies
 pip install fastapi uvicorn
-▶️ Running the Server
+Running the Server
 uvicorn main:app --reload
 
 Server will run at:
 
-http://127.0.0.1:8000
-📡 API Endpoints
-🟢 Create Issue
+http://127.0.0.1:8000/docs
+API Endpoints
+Create Issue
 
 POST /issues
 
@@ -63,15 +63,15 @@ POST /issues
   "description": "Login fails sometimes",
   "status": "open"
 }
-🔵 Get All Issues
+Get All Issues
 
 GET /issues
 
-🟡 Get Issue by ID
+Get Issue by ID
 
 GET /issues/{issue_id}
 
-🟠 Update Issue
+Update Issue
 
 PUT /issues/{issue_id}
 
@@ -80,7 +80,7 @@ PUT /issues/{issue_id}
   "description": "Updated description",
   "status": "in-progress"
 }
-🔴 Delete Issue
+Delete Issue
 
 DELETE /issues/{issue_id}
 
