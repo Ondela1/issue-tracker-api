@@ -95,26 +95,4 @@ Built as a backend take-home assignment using FastAPI.
 
 ---
 
-# What this gives you
-
-This README makes your project look:
-
-- structured
-- intentional
-- easy to run
-- professional
-
-Even if your code is simple, this boosts your grade.
-
----
-
-# If you want next upgrade (optional)
-
-I can help you:
-- :contentReference[oaicite:0]{index=0}
-- :contentReference[oaicite:1]{index=1}
-- or :contentReference[oaicite:2]{index=2}
-
-=======
-# issue-tracker-api
->>>>>>> ade5b1bff8a4390079bc14cd69643cdcb96fd664
+a4390079bc14cd69643cdcb96fd664
